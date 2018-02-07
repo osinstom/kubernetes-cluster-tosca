@@ -282,7 +282,7 @@ policies:
   kubernetes_node_vms_scaling_policy:
     type: cloudify.policies.scaling
     properties:
-      default_instances: 4
+      default_instances: 2
     targets: [k8s_node_group]
 
 outputs:
